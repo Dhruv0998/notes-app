@@ -4,6 +4,7 @@ import NotesList from "./components/NotesList";
 import Search from "./components/Search";
 import Header from "./components/Header";
 
+// nanoid's for Unique Id Generation
 const App = () => {
   const [notes, setNotes] = useState([
     {
